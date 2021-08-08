@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+.home {
+    margin: 15px;
+    border-color: red;
+}
+  
+.header {
+    background-color: #F3881F;
+    color: white;
+    padding: 10px;
+}
+
+.column {
+    float: left;
+    padding: 15px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.menu {
+    width: 30%;
+    height: 100vh;
+}
+
+.content {
+    width: 70%;
+    height: fit-content;
+    background-color: #E1E4CB;
+    margin-top: 15px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.row1 {
+    background-color: #AADEDD;
+    border: 1px solid black;
+    color: gray;
+}
+
+.row2 {
+    background-color: #69D1E8;
+    border: 1px solid black;
+    color: gray;
+    margin-top: 20px;
+}
+
+.out {
+    color: white;
+    padding-right: 10px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.out:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.userName {
+    font-size: 23px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.dest, .amt, .btn {
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    margin-left: 46px;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+button:disabled {
+    background-color: gray;
+    color: darkgray;
+    cursor: not-allowed;
+}
+
+button:enabled {
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+h4 {
+    text-align: center;
+    padding: 0;
+    color: brown;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+h3 {
+    text-align: center;
+    padding: 12px;
+    color: black;
+    font-size: 24px;
+}
+
+

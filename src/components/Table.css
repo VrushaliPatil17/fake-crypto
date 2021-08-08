@@ -1,0 +1,44 @@
+.table {
+    height: fit-content;
+    background-color: #E1E4CB;
+    margin-bottom: 100px;
+}
+
+h5 {
+    text-align: left;
+    color: darkred;
+    padding: 0;
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#history {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 2px solid darkgray;
+    width: 100%;
+}
+
+#history td, #history th {
+    border: 1px solid gray;
+    padding: 8px;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgba(75,192,192,1);
+    color: white;
+}
+
+td[data-stat="Credit"]{
+    color: green;
+}
+td[data-stat="Debit"]{
+    color:red;
+}
+  
+  
+  
